@@ -40,7 +40,14 @@
 <div class="splash-container">
     <div class="splash">
         <p class="splash-head">El <a href="https://www.agetic.gob.bo/#/plan-de-implementacion-de-software-libre-y-estandares-abiertos">Plan de Implementación de Software Libre y Estándares Abiertos</a> está en vigencia hace <b>{{ hace_dias }}</b> días</p>
-        <p class="splash-subhead">en <b>{{ en_dias }}</b> días<br>
+        <p class="splash-subhead">
+        {% if en_dias == 0 %}
+            <b>HOY</b>
+        {% elif en_dias == 1 %}
+            <b>MAÑANA</b>
+        {% else %}
+            en <b>{{ en_dias }}</b> días<br/>
+        {% endif %}
             {{ quien|safe }} {{ que|safe }}
             {% if quien2 and que2 %}
                 <br/>{{ quien2|safe }} {{ que2|safe }}
