@@ -39,5 +39,5 @@ Fechas
 
 Las fechas están descritas en fechas.yaml.
 
-.. _Plan de Implementacion de Software Libre y Estándares Abiertos: https://www.agetic.gob.bo/#/plan-de-implementacion-de-software-libre-y-estandares-abiertos
+.. _Plan de Implementación de Software Libre y Estándares Abiertos: https://www.agetic.gob.bo/#/plan-de-implementacion-de-software-libre-y-estandares-abiertos
 
