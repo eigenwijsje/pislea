@@ -11,11 +11,6 @@
   },
   {
     "hasta": "2018-01-12",
-    "quien": "Las Entidades Públicas",
-    "que": "enviaran a la <abbr title='Agencia de Gobierno Electrónico y Tecnologías de Información y Comunicación'>AGETIC</abbr> el plan Institucional de Implementación de Software Libre y Estandares Abiertos aprobado por la Máxima Autoridad Ejecutiva, para su validación, seguimineto de su aplicación y publicación en su página web"
-  },
-  {
-    "hasta": "2018-01-12",
     "quien": "El Ministerio de Obras Públicas, Servicios y Vivienda",
     "que": "establecerá las condiciones de acceso gratuito a los portales señalados en el <a href='#art-3'>Artículo 3</a>"
   },
@@ -23,6 +18,11 @@
     "hasta": "2018-07-12",
     "quien": "Las Entidades Públicas",
     "que": "enviarán a la <abbr title='Agencia de Gobierno Electrónico y Tecnologías de Información y Comunicación'>AGETIC</abbr> el Plan Institucional de Implementación de Gobierno Electrónico aprobado por la Máxima Autoridad Ejecutiva, para su validación, seguimineto de su aplicación y publicación en su página web"
+  },
+  {
+    "hasta": "2019-01-12",
+    "quien": "Las Entidades Públicas",
+    "que": "enviaran a la <abbr title='Agencia de Gobierno Electrónico y Tecnologías de Información y Comunicación'>AGETIC</abbr> el plan Institucional de Implementación de Software Libre y Estandares Abiertos aprobado por la Máxima Autoridad Ejecutiva, para su validación, seguimineto de su aplicación y publicación en su página web"
   },
   {
     "hasta": "2021-07-12",
