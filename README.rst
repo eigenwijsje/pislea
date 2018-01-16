@@ -1,20 +1,26 @@
-----------------------------------------------------------------------------------------
+########################################################################################
 Próxima fecha clave en el Plan de Implementacion de Software Libre y Estándares Abiertos
-----------------------------------------------------------------------------------------
+########################################################################################
 
 Esta aplicación muestra la próxima fecha clave en el `Plan de Implementación de Software Libre y Estándares Abiertos`_ de acuerdo al Decreto Supremo 3251 publicado por el Gobierno de Bolvia el 12 de julio de 2017.
 
---------------
+==============
 Requerimientos
---------------
+==============
 
 ::
 
+  click==6.7
   Flask==0.12.2
+  itsdangerous==0.24
+  Jinja2==2.10
+  MarkupSafe==1.0
+  pkg-resources==0.0.0
+  Werkzeug==0.14.1
 
-------
+======
 Fechas
-------
+======
 
 12 de agosto de 2017:
   La máximas autoridades ejecutivas de las entidades del sector público remitirán a la AGETIC la designación de la o las personas responsables de la coordinación de la implementación de los planes establecidos en el Artículo 6
@@ -37,7 +43,7 @@ Fechas
 6 meses desde la aprobación de le Resolución Ministerial emitida por el Ministerio de Obras Públicas, Servicios y Vivienda sobre las condiciones de acceso gratuitos establecidos en la Disposicion Transitoria Tercera:
   El Comité Plurinacional de Tecnologías de Información y Comunicación a) aprobará los criterios de elegibilidad para los sitios web establecidos en el Paragafo II del Articulo 3. b) determinará y remitirá la lista de sitios web a la Autoridad de Regulación y Fizcalización de Telecomunicaciones y Transporte, para su verficación y cumplimento
 
-Las fechas están descritas en fechas.yaml.
+Las fechas están descritas en `fechas.json`.
 
 .. _Plan de Implementación de Software Libre y Estándares Abiertos: https://www.agetic.gob.bo/#/plan-de-implementacion-de-software-libre-y-estandares-abiertos
 
