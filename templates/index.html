@@ -28,137 +28,140 @@
     <![endif]-->
 </head>
 <body>
-
-<div class="header">
-    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-        <ul class="pure-menu-list">
-            <li class="pure-menu-item"><a href="/2017-08-02/" class="pure-menu-link">Presentación y socialización</a></li>
-        </ul>
+    <div class="header">
+        <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="/fechas-pasadas" class="pure-menu-link">Fechas pasadas</a></li>
+            </ul>
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="/2017-08-02/" class="pure-menu-link">Presentación y socialización</a></li>
+            </ul>
+        </div>
     </div>
-</div>
 
-<div class="splash-container">
-    <div class="splash">
-        <p class="splash-head">El <a href="https://www.agetic.gob.bo/#/plan-de-implementacion-de-software-libre-y-estandares-abiertos">Plan de Implementación de Software Libre y Estándares Abiertos</a> está en vigencia hace <b>{{ hace_dias }}</b> días</p>
-        <p class="splash-subhead">
-        {% if en_dias == 0 %}
-            <b>HOY</b>
-        {% elif en_dias == 1 %}
-            <b>MAÑANA</b>
-        {% else %}
-            en <b>{{ en_dias }}</b> días<br/>
-        {% endif %}
-            {{ quien|safe }} {{ que|safe }}
-            {% if quien2 and que2 %}
-                <br/>{{ quien2|safe }} {{ que2|safe }}
+    <div class="splash-container">
+        <div class="splash">
+            <p class="splash-head">El <a href="https://www.agetic.gob.bo/#/plan-de-implementacion-de-software-libre-y-estandares-abiertos">Plan de Implementación de Software Libre y Estándares Abiertos</a> está en vigencia hace <b>{{ hace_dias }}</b> días</p>
+            <p class="splash-subhead">
+            {% if en_dias == 0 %}
+                <b>HOY</b>
+            {% elif en_dias == 1 %}
+                <b>MAÑANA</b>
+            {% else %}
+                en <b>{{ en_dias }}</b> días<br/>
             {% endif %}
-        </p>
+                {{ quien|safe }} {{ que|safe }}
+                {% if quien2 and que2 %}
+                    <br/>{{ quien2|safe }} {{ que2|safe }}
+                {% endif %}
+            </p>
+        </div>
     </div>
-</div>
 
-<div class="content-wrapper">
-    <div class="content">
-        <h1 class="content-head is-center"><a id="ds-3251">Decreto Supremo 3251</a></h1>
-        <h2><a id="art-1">Artículo 1 (Objeto)</a></h2>
+    <div class="content-wrapper">
+        <div class="content">
+            <h1 class="content-head is-center"><a id="ds-3251">Decreto Supremo 3251</a></h1>
+            <h2><a id="art-1">Artículo 1 (Objeto)</a></h2>
 
-        <p>El presente Decreto Supremo tiene por objeto:</p>
+            <p>El presente Decreto Supremo tiene por objeto:</p>
 
-        <ol type="a">
-            <li>Aprobar el Plan de Implementación de Gobierno Electrónico que en
-                Anexo forma parte integrante del presente Decreto Supremo;
-            </li>
-            <li>Aprobar el Plan de Implementación de Software Libre y Estándares
-                Abiertos que en Anexo forma parte integrante del presente Decreto
-                Supremo;
-            </li>
-            <li>Establecer aspectos complementarios para la implementación de ambos
-                planes.
-            </li>
-        </ol>
+            <ol type="a">
+                <li>Aprobar el Plan de Implementación de Gobierno Electrónico que en
+                    Anexo forma parte integrante del presente Decreto Supremo;
+                </li>
+                <li>Aprobar el Plan de Implementación de Software Libre y Estándares
+                    Abiertos que en Anexo forma parte integrante del presente Decreto
+                    Supremo;
+                </li>
+                <li>Establecer aspectos complementarios para la implementación de ambos
+                    planes.
+                </li>
+            </ol>
 
-        <h2><a id="art-2">Artículo 2 (Alcance)</a></h2>
+            <h2><a id="art-2">Artículo 2 (Alcance)</a></h2>
 
-        <p>El Plan de Implementación de Gobierno Electrónico y el Plan de
-            Implementación de Software Libre y Estándares Abiertos son aplicables por
-            todos los niveles de gobierno del Estado Plurinacional de Bolivia.</p>
+            <p>El Plan de Implementación de Gobierno Electrónico y el Plan de
+                Implementación de Software Libre y Estándares Abiertos son aplicables por
+                todos los niveles de gobierno del Estado Plurinacional de Bolivia.</p>
 
-        <h2><a id="art-3">Artículo 3 (Acceso Gratuito a Portales)</a></h2>
+            <h2><a id="art-3">Artículo 3 (Acceso Gratuito a Portales)</a></h2>
 
-        <p><b>I.</b> El Ministerio de Obras Públicas, Servicios y Vivienda establecerá
-            las condiciones técnicas y normativas para que en el territorio del Estado
-            Plurinacional de Bolivia, los operadores o proveedores del servicio de
-            acceso a internet no realicen cobro alguno respecto al servicio de
-            transferencia de datos por el acceso a las siguientes páginas web alojadas
-            en Bolivia:</p>
+            <p><b>I.</b> El Ministerio de Obras Públicas, Servicios y Vivienda establecerá
+                las condiciones técnicas y normativas para que en el territorio del Estado
+                Plurinacional de Bolivia, los operadores o proveedores del servicio de
+                acceso a internet no realicen cobro alguno respecto al servicio de
+                transferencia de datos por el acceso a las siguientes páginas web alojadas
+                en Bolivia:</p>
 
-        <ol>
-            <li>Bajo el nombre de dominio en internet &ldquo;.gob.bo&rdquo;;</li>
-            <li>Mínimamente cien (100) sitios web educativos, informativos y otros que
-                aporten al desarrollo humano de la ciudadanía.
-            </li>
-        </ol>
+            <ol>
+                <li>Bajo el nombre de dominio en internet &ldquo;.gob.bo&rdquo;;</li>
+                <li>Mínimamente cien (100) sitios web educativos, informativos y otros que
+                    aporten al desarrollo humano de la ciudadanía.
+                </li>
+            </ol>
 
-        <p><b>II.</b> Los criterios de elegibilidad para los sitios web establecidos
-            en el numeral 2 del Parágrafo precedente, serán establecidos por el Comité
-            Plurinacional de Tecnologías de Información y Comunicación – COPLUTIC mediante
-            reglamentación específica.</p>
+            <p><b>II.</b> Los criterios de elegibilidad para los sitios web establecidos
+                en el numeral 2 del Parágrafo precedente, serán establecidos por el Comité
+                Plurinacional de Tecnologías de Información y Comunicación – COPLUTIC mediante
+                reglamentación específica.</p>
 
-        <h2><a id="art-4">Artículo 4 (Interoperabilidad)</a></h2>
+            <h2><a id="art-4">Artículo 4 (Interoperabilidad)</a></h2>
 
-        <p><b>I.</b> El <abbr title="Comité Plurinacional de Tecnologías de la
-    Información y Comunicación">COPLUTIC</abbr>, en coordinación con la
-            Agencia de Gobierno Electrónico y Tecnologías de Información y Comunicación
-            – AGETIC, podrá determinar la obligatoriedad por parte de las Entidades
-            públicas para compartir información mediante interoperabilidad, en el marco
-            de las leyes y normas vigentes, así como disposiciones específicas de
-            sectores estratégicos.</p>
+            <p><b>I.</b> El <abbr title="Comité Plurinacional de Tecnologías de la
+        Información y Comunicación">COPLUTIC</abbr>, en coordinación con la
+                Agencia de Gobierno Electrónico y Tecnologías de Información y Comunicación
+                – AGETIC, podrá determinar la obligatoriedad por parte de las Entidades
+                públicas para compartir información mediante interoperabilidad, en el marco
+                de las leyes y normas vigentes, así como disposiciones específicas de
+                sectores estratégicos.</p>
 
-        <p><b>II.</b> Las entidades públicas en el plazo de dos (2) meses de haber sido
-            notificadas con la resolución del <abbr title="Comité Plurinacional de
-  Tecnologías de Información y Comunicación">COPLUTIC</abbr>, deberán habilitar
-            a través de la <abbr title="Agencia de Gobierno Electrónico y Tecnologías de
-    Información y Comunicación">AGETIC</abbr> los accesos a la Información
-            objeto de la resolución.</p>
+            <p><b>II.</b> Las entidades públicas en el plazo de dos (2) meses de haber sido
+                notificadas con la resolución del <abbr title="Comité Plurinacional de
+      Tecnologías de Información y Comunicación">COPLUTIC</abbr>, deberán habilitar
+                a través de la <abbr title="Agencia de Gobierno Electrónico y Tecnologías de
+        Información y Comunicación">AGETIC</abbr> los accesos a la Información
+                objeto de la resolución.</p>
 
-        <p><b>III.</b> Las entidades públicas que no cuentan con las condiciones
-            técnicas para proporcionar la Información objeto de la resolución, podrán
-            solicitar ante la <abbr title="Agencia de Gobierno Electrónico y Tecnologías
-    de  Información y Comunicación">AGETIC</abbr> la ampliación del plazo
-            establecido en el Parágrafo precedente, previa justificación técnica de la
-            entidad.</p>
+            <p><b>III.</b> Las entidades públicas que no cuentan con las condiciones
+                técnicas para proporcionar la Información objeto de la resolución, podrán
+                solicitar ante la <abbr title="Agencia de Gobierno Electrónico y Tecnologías
+        de  Información y Comunicación">AGETIC</abbr> la ampliación del plazo
+                establecido en el Parágrafo precedente, previa justificación técnica de la
+                entidad.</p>
 
-        <p><b>IV.</b> El Ente Rector del Gobierno Electrónico y Tecnologías de
-            Información y Comunicación establecerá los mecanismos y condiciones de acceso
-            a los datos disponibles en el marco del presente Artículo</p>
+            <p><b>IV.</b> El Ente Rector del Gobierno Electrónico y Tecnologías de
+                Información y Comunicación establecerá los mecanismos y condiciones de acceso
+                a los datos disponibles en el marco del presente Artículo</p>
 
-        <p><b>V.</b> Las entidades del sector público, en el marco de sus funciones y
-            atribuciones, sin perjuicio de la aplicación de los establecido en el presente
-            Artículo, podrán suscribir convenios de interoperabilidad, para garantizas el
-            intercambio de Información.</p>
+            <p><b>V.</b> Las entidades del sector público, en el marco de sus funciones y
+                atribuciones, sin perjuicio de la aplicación de los establecido en el presente
+                Artículo, podrán suscribir convenios de interoperabilidad, para garantizas el
+                intercambio de Información.</p>
 
-        <h2><a id="art-5">Artículo 5 (Financiamiento)</a></h2>
+            <h2><a id="art-5">Artículo 5 (Financiamiento)</a></h2>
 
-        <p>Los panes institucionales de Implementación de Gobierno Electrónico y los
-            Planes Institucionales de Implementación de Software Libre y Estándares
-            Abiertos serán priorizados y financiados por cada entidad al interior de su
-            presupuesto institucional.</p>
+            <p>Los panes institucionales de Implementación de Gobierno Electrónico y los
+                Planes Institucionales de Implementación de Software Libre y Estándares
+                Abiertos serán priorizados y financiados por cada entidad al interior de su
+                presupuesto institucional.</p>
 
-        <h2><a id="art-6">Artículo 6 (Responsables)</a></h2>
+            <h2><a id="art-6">Artículo 6 (Responsables)</a></h2>
 
-        <p><b>I.</b> Las Máximas Autoridades Ejecutivas de las entidades del sector
-            público, deberán designar al o los responsables de la coordinación de la
-            implementación de los Planes establecidos en el presente Decreto Supremo.</p>
+            <p><b>I.</b> Las Máximas Autoridades Ejecutivas de las entidades del sector
+                público, deberán designar al o los responsables de la coordinación de la
+                implementación de los Planes establecidos en el presente Decreto Supremo.</p>
 
-        <p><b>II.</b> El o los responsables deberán coordinar con la <abbr
-                title="Agencia de Gobierno Electrónico y Tecnologías de Información y
-  Comunicación">AGETIC</abbr> la implementación de los Planes establecidos en
-            el presente Decreto Supremo.</p>
+            <p><b>II.</b> El o los responsables deberán coordinar con la <abbr
+                    title="Agencia de Gobierno Electrónico y Tecnologías de Información y
+      Comunicación">AGETIC</abbr> la implementación de los Planes establecidos en
+                el presente Decreto Supremo.</p>
 
-        <h2><a id="art-7">Artículo 7 (Previsión)</a></h2>
+            <h2><a id="art-7">Artículo 7 (Previsión)</a></h2>
 
-        <p>Los Planes Institucionales de Implementación de Software Libre y Estándares
-            Abiertos podrán contemplar las previsiones establecidas en el Artículo 23 del
-            Reglamento para el Desarrollo de Tecnologías de Información y Comunicación
-            aprobado por Decreto Supremo N°1793, de 13 de noviembre de 2013.</p>
+            <p>Los Planes Institucionales de Implementación de Software Libre y Estándares
+                Abiertos podrán contemplar las previsiones establecidas en el Artículo 23 del
+                Reglamento para el Desarrollo de Tecnologías de Información y Comunicación
+                aprobado por Decreto Supremo N°1793, de 13 de noviembre de 2013.</p>
+        </div>
     </div>
-</div>
+<body>

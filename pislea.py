@@ -38,6 +38,24 @@ def index():
     return render_template('index.html', hace_dias=hace_dias, en_dias=en_dias, quien=quien, que=que, quien2=quien2, que2=que2)
 
 
+@app.route('/fechas-pasadas')
+def get_fechas_pasadas():
+    fechas_pasadas = []
+    with open('fechas.json', 'r') as f:
+        fechas = json.loads(f.read())
+        for fecha in fechas:
+            try:
+                hasta = datetime.strptime(fecha['hasta'], '%Y-%m-%d')
+            except ValueError:
+                pass
+            else:
+                quien = fecha['quien']
+                que = fecha['que']
+            if hasta < datetime.now():
+                fechas_pasadas.append(dict(hasta=hasta.strftime('%d %b %Y'), quien=quien, que=que))
+        return render_template('fechas_pasadas.html', fechas_pasadas=fechas_pasadas)
+
+
 if __name__ == "__main__":
     app.run(host='127.0.0.1')
 
